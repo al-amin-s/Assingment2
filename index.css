@@ -151,10 +151,10 @@ form {}
     width: 100px;
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 150px;
-    padding:20px;
+    margin-top: 200px;
+    padding: 60px;
     text-align: center;
-    box-shadow:4px 4px 5px;
+    box-shadow: 4px 4px 5px;
 
 }
 
@@ -165,12 +165,120 @@ form {}
     padding: ;
 }
 
-.help-heading { 
+.help-heading {
     color: #ffffff;
     height: 100px;
-    width:500px;
+    width: 500px;
     margin: auto;
     text-align: center;
     background-color: rgba(45, 40, 40, 0.5);
+
+}
+
+/* destination */
+
+.destination-div {}
+
+.destination-title {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.destination-image-contanir {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 49px;
+    margin-top: 10px;
+}
+
+.image1 {
+    width: 573px;
+    height: 300px;
+    background-image: url('./Images/Rectangle 5.png');
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image2 {
+    width: 573px;
+    height: 300px;
+    background-image: url('./Images/Rectangle 8.png');
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colums-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+
+
+}
+
+.image3 {
+    width: 374px;
+    height: 286px;
+    background-image: url('./Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image4 {
+    width: 474px;
+    height: 286px;
+    background-image: url('./Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image5 {
+    width: 274px;
+    height: 286px;
+    background-image: url('./Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image6 {
+    width: 937px;
+    height: 300px;
+    color: #fff;
+    background-image: url('./Images/Rectangle\ 10.png');
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.image7 {
+    width: 645px;
+    height: 300px;
+    color: #fff;
+    background-image: url('./Images/Rectangle\ 11.png');
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
     
 }
