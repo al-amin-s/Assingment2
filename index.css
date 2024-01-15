@@ -13,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 252px;
+    padding: 0px 42px;
 }
 
 .logo-div {
@@ -52,4 +52,5 @@ nav {
     height: 500px;
     border: 1px solid #424247;
     margin: auto;
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
 }
