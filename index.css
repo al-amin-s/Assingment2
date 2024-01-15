@@ -7,10 +7,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.primary-btn{
-    background-color:#FF5400;
+.primary-btn {
+    background-color: #FF5400;
     width: 117px;
-    height:52px;
+    height: 52px;
     border: none;
     border-radius: 7px;
     color: #fff;
@@ -70,8 +70,8 @@ nav {
     color: #fff;
     margin-top: 100px;
     margin-bottom: 20px;
-    font-size:40px;
-    font-weight:800;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .bannar-div>p {
@@ -86,48 +86,91 @@ form {}
 
 .form-input {
     padding: 10px;
-    border-radius:5px;
-    border:none;
+    border-radius: 5px;
+    border: none;
 }
-.col{
-    background-color:#FF5400;
-    
+
+.col {
+    background-color: #FF5400;
+
 }
 
 /* Our Popular Tours */
 
-.popular-div{
+.popular-div {
     display: flex;
     justify-content: space-between;
-    margin-top:100px;
+    margin-top: 100px;
     padding: 0px 53px
 }
 
-.popular-content{
-    
-    
-}
+.popular-content {}
 
-.popular-content>p{
+.popular-content>p {
     width: 525px;
     padding-bottom: 50px;
     color: #131318B2;
-    
+
 }
 
-.popular-content>ul{
+.popular-content>ul {
     width: 525px;
     padding-bottom: 50px;
     color: #131318B2;
-    
+
 }
 
-.popular-content>ul>li{
+.popular-content>ul>li {
     width: 525px;
     padding-bottom: 10px;
     color: #131318B2;
 }
 
-.popular-img{
+.popular-img {}
+
+/* help div */
+
+.help-div {
+    height: 600px;
+    width: 1170px;
+    background-image: url('./Images/gggggg-min.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 100px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.help-div>img {
+    width: 1170px;
+    height: 500px;
+}
+
+.help-content {
+    height: 250px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 150px;
+    padding:20px;
+    text-align: center;
+    box-shadow:4px 4px 5px;
+
+}
+
+.help-containar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: ;
+}
+
+.help-heading { 
+    color: #ffffff;
+    height: 100px;
+    width:500px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(45, 40, 40, 0.5);
     
 }
