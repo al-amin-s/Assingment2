@@ -267,7 +267,7 @@ form {}
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
@@ -280,5 +280,231 @@ form {}
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
+}
+
+/* Why Choose Us */
+
+.coose-title {
+    width: 643px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.coose-title>h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #0b0b0f;
+}
+
+.coose-title>p {
+
+    font-size: 16px;
+
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.choose-containar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 41px;
+}
+
+.chooce-contant-left {
+    width: 573px;
+    height: 284px;
+    background-color: rgba(219, 125, 19, 0.05);
+    border: 1px solid black;
+    box-shadow: 4px 4px 5px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.chooce-contant-left>h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #0b0b0f;
+}
+
+.chooce-contant-left>p {
+    width: 350px;
+    font-size: 16px;
+
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 20px;
+}
+
+
+.chooce-contant-left>img {
+    height: 70px;
+    width: 70px;
+}
+
+.chooce-contant-right {
+    width: 573px;
+    height: 284px;
+    background: rgba(82, 153, 171, 0.05);
+    border: 1px solid black;
+    box-shadow: 4px 4px 5px;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+
+
+.chooce-contant-right>h1 {
+
+    font-size: 46px;
+    font-weight: 800;
+    color: #0b0b0f;
+}
+
+.chooce-contant-right>P {
+    width: 350px;
+    font-size: 16px;
+
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 20px;
+}
+
+.chooce-contant-right>img {
+    height: 70px;
+    width: 70px;
+}
+
+.chooce-contant-center {
+    width: 573px;
+    height: 284px;
+    background-color: rgba(219, 125, 19, 0.05);
+    border: 1px solid black;
+    box-shadow: 4px 4px 5px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.chooce-contant-center>img {
+    height: 70px;
+    width: 70px;
+}
+
+.chooce-contant-center>p {
+    width: 350px;
+    font-size: 16px;
+
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 20px;
+}
+
+.chooce-contant-center>h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #0b0b0f;
+}
+
+/*  */
+
+.deals-div {
+    width: 643px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.deals-div>h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #0b0b0f;
+}
+
+.deals-div>p {
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 20px;
+
+}
+
+
+
+/* tour-div */
+
+.tour-div {
+    border: 1px solid black;
+    width: 1170px;
+    height: 500px;
+    background-image: url('./Images/Group\ 39.png');
+    margin: auto;
+    margin-top: 50px;
     
+}
+
+
+.tour-div-content{
+    width: 579px;
+height: 389px;
+background-color: rgba(255, 250, 250, 0.5);
+margin-left:350px;
+margin-top: 50px;
+border-radius: 5px;
+box-shadow: 4px 4px 5px;
+}
+
+
+.li-item>ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 10px;
+    padding-top:20px;
+}
+
+.li-item>ul>li{
+    padding: 0px 10px;
+    color: #FF5400;
+}
+.li-item>h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0b0b0f;
+    padding: 0px 10px;
+    margin-top: 40px;
+}
+
+.li-item>p{
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 40px;
+    width: 400px;
+    margin-left:10px;
+
+}
+
+.price{
+    
+}
+.price{
+font-weight: 800;
+font-size:20px;
+color: #FF5400;
+margin-left: 10px;
+}
+
+.Packages{
+    background-color: #FF5400;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius:7px;
+    border: none;
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
 }
