@@ -163,7 +163,7 @@ form {}
 .help-containar {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap:20px;
 
 }
 
@@ -703,7 +703,11 @@ section>p {
         width: 335px;
     }
 
-    .help-containar {}
+    .help-containar {
+        flex-direction:column;
+        
+        
+    }
 
     .destination-title {
         width: 335px;
@@ -840,5 +844,7 @@ height: 1px;
     .menu>ul>li>a {
         padding: 0px 0px;
     }
-
+.h{
+    visibility: hidden;
+}
 }
