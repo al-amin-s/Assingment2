@@ -163,7 +163,7 @@ form {}
 .help-containar {
     display: flex;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
 
 }
 
@@ -704,9 +704,9 @@ section>p {
     }
 
     .help-containar {
-        flex-direction:column;
-        
-        
+        flex-direction: column;
+
+
     }
 
     .destination-title {
@@ -813,38 +813,44 @@ section>p {
     }
 
     .newsletter-image {
-        width: 477px;
-        height: 300px;
+        width: 335px;
+        height: 200px;
         margin-left: 0px;
+        margin-top:5px;
     }
 
     .newsletter-content {
         margin-left: 0px;
+        width: 335px;
+        height: 200px;
     }
-    .card{
+
+    .card {
         width: 214.023px;
         height: 79.268px;
         transform: rotate(-19.628deg);
-        
+
     }
 
-    footer{
-        width: 375px;
-height: 309px;
+    footer {
+        width: 335px;
+        height: 200px;
     }
-    section>p{
+
+    section>p {
         width: 287px;
     }
 
-    hr{
+    hr {
         width: 335px;
-height: 1px;
+        height: 1px;
     }
 
     .menu>ul>li>a {
         padding: 0px 0px;
     }
-.h{
-    visibility: hidden;
-}
+
+    .h {
+        visibility: hidden;
+    }
 }
