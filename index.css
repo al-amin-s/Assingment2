@@ -128,6 +128,8 @@ form {}
 
 .popular-img {}
 
+
+
 /* help div */
 
 .help-div {
@@ -507,4 +509,26 @@ margin-left: 10px;
     
     display: flex;
     justify-content: center;
+}
+
+
+/* video-content */
+
+
+
+.video-div{}
+
+.video-content{
+    
+}
+
+.video{
+    width: 610px;
+height: 424px;
+}
+
+
+.video{
+    width: 610px;
+border-radius:10px;
 }
